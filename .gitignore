@@ -30,3 +30,25 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+.idea/
+.vscode
+.DS_Store
+
+CDNTaskFC/aliyun/functioncompute/src/test/
+
+# ** matches one or more dir
+# * maches any character but not /, ie, match one dir only
+# this ignores all config files under app/$service/ directory
+# **/app/*/*.conf
+
+*.log
+*.log.*
+
+.devspace
+
+/cloud-dev/devspace/**/build
+/cloud-dev/devspace/**/values.yaml
+/cloud-dev/common/**/values.yaml
+/cloud-dev/helm/output
+/cloud-dev/devspace/dn_deploy/dockerfile/conf
